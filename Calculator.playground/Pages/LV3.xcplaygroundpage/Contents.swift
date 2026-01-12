@@ -73,11 +73,11 @@ class Calculator {
     
 }
 
-print(Calculator(firstNumber: 10, secoundNumber: 5).operation(status: "+"))
-print(Calculator(firstNumber: 112312, secoundNumber: 12131).operation(status: "-"))
-print(Calculator(firstNumber: 400, secoundNumber: 20).operation(status: "*"))
-print(Calculator(firstNumber: 1000, secoundNumber: 0).operation(status: "/"))
-print(Calculator(firstNumber: 1000, secoundNumber: 50).operation(status: "/"))
+print(Calculator(firstNumber: 10, secoundNumber: 5).operation(status: "+")) //15
+print(Calculator(firstNumber: 112312, secoundNumber: 12131).operation(status: "-")) //100181
+print(Calculator(firstNumber: 400, secoundNumber: 20).operation(status: "*"))//8000
+print(Calculator(firstNumber: 1000, secoundNumber: 0).operation(status: "/")) //"0으로 나눌 수 없습니다",0
+print(Calculator(firstNumber: 1000, secoundNumber: 50).operation(status: "/")) //20
 
 
 
