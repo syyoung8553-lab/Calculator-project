@@ -71,6 +71,30 @@ class Calculator {
         
     }
     
+    
+//
+ /*   enum을 써도된다
+  
+  enum status
+  case +
+  case -
+  case *
+  case /
+  
+  위에 함수에 switch 문을 넣는다
+  switch status
+  case .+
+  return addoperation.add(firstNumber, secondNumber)
+  case .-
+  return suboperation.sub(firstNumber, secondNumber)
+  case .*
+  return muloperation.mul(firstNumber, secondNumber)
+  case ./
+  return divoperation.rem(firstNumber, secondNumber)
+  
+  
+*/
+    
 }
 
 print(Calculator(firstNumber: 10, secoundNumber: 5).operation(status: "+")) //15
